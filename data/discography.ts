@@ -8,6 +8,7 @@ export const discography = [
         year: 2015,
         type: "Mini Album",
         image: "/albums/the-story-begins.webp",
+        spotify: "https://open.spotify.com/embed/album/72WWZVAx6GtSbEeGESwDLo?si=Lrg02sx9StSi3ZAX1aKNuw",
       },
       {
         slug: "page-two",
@@ -15,6 +16,7 @@ export const discography = [
         year: 2016,
         type: "Mini Album",
         image: "/albums/page-two.webp",
+        spotify: "https://open.spotify.com/embed/album/6q2oUEqL9uzVXHCeKoA8JV?si=yx8-GK9MSpOVKTNFDKUs1A",
       },
       {
         slug: "twicecoaster-lane-1",
@@ -22,6 +24,7 @@ export const discography = [
         year: 2016,
         type: "Mini Album",
         image: "/albums/twicecoaster-lane-1.webp",
+        spotify: "https://open.spotify.com/embed/album/5zQhaDNbiXHRqd8Y51I4vy?si=9rU5Sx6sQbajJHwwWXirXg",
       },
       {
         slug: "twicecoaster-lane-2",
@@ -29,6 +32,7 @@ export const discography = [
         year: 2017,
         type: "Repackage",
         image: "/albums/twicecoaster-lane-2.webp",
+        spotify: "https://open.spotify.com/embed/album/2Mw8oK3aJKmOa9YGWqpN2W?si=WplTRpEfToCBxx18Qov6Nw",
       },
       {
         slug: "signal",
@@ -36,6 +40,7 @@ export const discography = [
         year: 2017,
         type: "Mini Album",
         image: "/albums/signal.webp",
+        spotify: "https://open.spotify.com/embed/album/28PwDunFAR71toOCTYRvkf?si=entYUesMR92TEFTnvuzK6w",
       },
       {
         slug: "twicetagram",
@@ -43,6 +48,7 @@ export const discography = [
         year: 2017,
         type: "Full Album",
         image: "/albums/twicetagram.webp",
+        spotify: "https://open.spotify.com/embed/album/3hJXmK5gWN9P6jtZL0Lr2y?si=ooCH-rSmQXGKi1n_w_-vaA",
       },
       {
         slug: "merry-happy",
@@ -50,6 +56,7 @@ export const discography = [
         year: 2017,
         type: "Repackage",
         image: "/albums/merry-happy.webp",
+        spotify: "https://open.spotify.com/embed/album/0R7pj4tnmcoUulrZGPo6nw?si=m4tD_lEyR3ChlXlqH3MfFA",
       },
       {
         slug: "what-is-love",
@@ -57,6 +64,7 @@ export const discography = [
         year: 2018,
         type: "Mini Album",
         image: "/albums/what-is-love.webp",
+        spotify: "https://open.spotify.com/embed/album/5o5cJ6yZmcyy4y4hK0J6de?si=8jDSJ2EdQrqmQtJfG2LinA",
       },
       {
         slug: "summer-nights",
@@ -64,6 +72,7 @@ export const discography = [
         year: 2018,
         type: "Special Album",
         image: "/albums/summer-nights.webp",
+        spotify: "https://open.spotify.com/embed/album/2GKTroaa4ysyhEdvzpvUoM?si=--3Ve0Y8Tv6UHpqQgKSUKQ",
       },
       {
         slug: "yes-or-yes",
@@ -71,6 +80,7 @@ export const discography = [
         year: 2018,
         type: "Mini Album",
         image: "/albums/yes-or-yes.webp",
+        spotify: "https://open.spotify.com/embed/album/25VunQEW0x2W6ALND2Mh4g?si=BC5oNfUERoS_ssVpzYPMnw",
       },
       {
         slug: "the-year-of-yes",
@@ -78,6 +88,7 @@ export const discography = [
         year: 2018,
         type: "Repackage",
         image: "/albums/the-year-of-yes.webp",
+        spotify: "https://open.spotify.com/embed/album/0pzmyJftuTK7i4HLjnfq1n?si=LrpNeq5xSKOC12_uQVF4Vg",
       },
       {
         slug: "fancy-you",
@@ -85,6 +96,7 @@ export const discography = [
         year: 2019,
         type: "Mini Album",
         image: "/albums/fancy-you.webp",
+        spotify: "https://open.spotify.com/embed/album/3aLpWFejbsdyafODLXRqwF?si=w2wNyyQqSXiYsNEt-QmT7w",
       },
       {
         slug: "feel-special",
@@ -92,6 +104,7 @@ export const discography = [
         year: 2019,
         type: "Mini Album",
         image: "/albums/feel-special.webp",
+        spotify: "https://open.spotify.com/embed/album/3NQBPabmRm3LzVcmtkTLfo?si=kauE27Q_RU-1wuFMxEsbng",
       },
       {
         slug: "more-more",
@@ -99,6 +112,7 @@ export const discography = [
         year: 2020,
         type: "Mini Album",
         image: "/albums/more-more.webp",
+        spotify: "https://open.spotify.com/embed/album/5KsduuDNWzt65TaHzmtciv?si=JkwJWAe6TxWbzPn1QwrioQ",
       },
       {
         slug: "eyes-wide-open",
@@ -106,6 +120,7 @@ export const discography = [
         year: 2020,
         type: "Full Album",
         image: "/albums/eyes-wide-open.webp",
+        spotify: "https://open.spotify.com/embed/album/33jypnU7WULxPaVrjj4RXH?si=CYD8n4KbQYSf3U2vCxtVcA",
       },
       {
         slug: "taste-of-love",
@@ -113,6 +128,7 @@ export const discography = [
         year: 2021,
         type: "Mini Album",
         image: "/albums/taste-of-love.webp",
+        spotify: "https://open.spotify.com/embed/album/00vb6sViDbJLmLLchfbRh4?si=dvBPZVGERUO_E3Uyt5sqOg",
       },
       {
         slug: "formula-of-love",
@@ -120,6 +136,8 @@ export const discography = [
         year: 2021,
         type: "Full Album",
         image: "/albums/formula-of-love.webp",
+        spotify: "https://open.spotify.com/embed/album/5052Ip89wdW8EGdpjEpNeq?si=pSmirrqhSO-NLgZ7wuc2bQ",
+        youtube: "https://www.youtube.com/embed/kOHB85vDuow",
       },
       {
         slug: "between-1-2",
@@ -127,6 +145,7 @@ export const discography = [
         year: 2022,
         type: "Mini Album",
         image: "/albums/between-1-2.webp",
+        spotify: "https://open.spotify.com/embed/album/3NZ94nQbqimcu2i71qhc4f?si=95lXZm0LSxG-C1XhrCb1eQ",
       },
       {
         slug: "ready-to-be",
@@ -134,6 +153,7 @@ export const discography = [
         year: 2023,
         type: "Mini Album",
         image: "/albums/ready-to-be.webp",
+        spotify: "https://open.spotify.com/embed/album/7hzP5i7StxYG4StECA0rrJ?si=7PAhWyqjSwWrhKJRSesz6Q",
       },
       {
         slug: "with-you-th",
@@ -141,6 +161,7 @@ export const discography = [
         year: 2024,
         type: "Mini Album",
         image: "/albums/with-you-th.webp",
+        spotify: "https://open.spotify.com/embed/album/575TQDOQqc0MAheeEeKWUR?si=sDtPy4PhTiGBLizzKRMjyg",
       },
     ],
   },
@@ -154,6 +175,7 @@ export const discography = [
         year: 2018,
         type: "Full Album",
         image: "/albums/bdz.webp",
+        spotify: "https://open.spotify.com/embed/album/3Bi7hl11zYHpw6uE6gAtSs?si=RDyzUJQKTqe4Ta2ECtj1rQ",
       },
       {
         slug: "bdz-repackage",
@@ -161,6 +183,7 @@ export const discography = [
         year: 2018,
         type: "Repackage",
         image: "/albums/bdz-repackage.webp",
+        spotify: "https://open.spotify.com/embed/album/1dZtA3Lt9sUGqkM6KWY92x?si=dDZ-AXVgQ1Cz_5y4LfHe3Q",
       },
       {
         slug: "perfect-world",
@@ -168,6 +191,7 @@ export const discography = [
         year: 2021,
         type: "Full Album",
         image: "/albums/perfect-world.webp",
+        spotify: "https://open.spotify.com/embed/album/17rk8h2IU4wwSFXw9j2uR6?si=6xQtAwjHRq-7D0hRtT9ADA",
       },
       {
         slug: "celebrate",
@@ -175,6 +199,7 @@ export const discography = [
         year: 2022,
         type: "Full Album",
         image: "/albums/celebrate.webp",
+        spotify: "https://open.spotify.com/embed/album/1nqz3cEjuvCMo8RHLBI9kM?si=DgTGmF3lSEmkfHmR0rvXlA",
       },
       {
         slug: "dive",
@@ -182,6 +207,7 @@ export const discography = [
         year: 2024,
         type: "Full Album",
         image: "/albums/dive.webp",
+        spotify: "https://open.spotify.com/embed/album/7tgTOUXm74GKA12wsQIUPu?si=XXpp7hf3QyypLucpDc8dyQ",
       },
     ],
   },

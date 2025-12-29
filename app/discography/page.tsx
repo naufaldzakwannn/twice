@@ -8,7 +8,7 @@ export default function DiscographyPage() {
 
       {discography.map((section) => (
         <div key={section.era} className="mb-16">
-          <h2 className="text-2xl font-semibold mb-6 text-gray-700">{section.era}</h2>
+          <h2 className="text-2xl font-semibold mb-6 text-pink-500">{section.era}</h2>
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             {section.albums.map((album) => (
