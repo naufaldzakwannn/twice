@@ -32,7 +32,7 @@ export default function AlbumDetail({ params }: { params: Promise<{ slug: string
       <div className="mt-10 flex justify-center gap-4">
         <Tab label="Info" active={tab === "info"} onClick={() => setTab("info")} />
         <Tab label="Spotify" active={tab === "spotify"} onClick={() => setTab("spotify")} />
-        <Tab label="YouTube" active={tab === "youtube"} onClick={() => setTab("youtube")} />
+        <Tab label="YouTube" active={tab === "youtube"} onClick={() => album.youtube && setTab("youtube")} />
       </div>
 
       {/* CONTENT */}
@@ -53,11 +53,14 @@ export default function AlbumDetail({ params }: { params: Promise<{ slug: string
 
         {tab === "spotify" && album.spotify && <iframe src={album.spotify} width="100%" height="380" className="rounded-xl" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture" loading="lazy" />}
 
-        {tab === "youtube" && album.youtube && (
-          <div className="aspect-video">
-            <iframe src={album.youtube} className="w-full h-full rounded-xl" allowFullScreen />
-          </div>
-        )}
+        {tab === "youtube" &&
+          (album.youtube ? (
+            <div className="aspect-video">
+              <iframe src={album.youtube} className="w-full h-full rounded-xl" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen loading="lazy" />
+            </div>
+          ) : (
+            <p className="text-center text-gray-500">YouTube playlist belum tersedia</p>
+          ))}
       </div>
     </section>
   );

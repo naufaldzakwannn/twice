@@ -9,6 +9,7 @@ export const discography = [
         type: "Mini Album",
         image: "/albums/the-story-begins.webp",
         spotify: "https://open.spotify.com/embed/album/72WWZVAx6GtSbEeGESwDLo?si=Lrg02sx9StSi3ZAX1aKNuw",
+        youtube: "https://www.youtube.com/embed/0rtV5esQT6I5rLh-Zaevk8b3hpt",
       },
       {
         slug: "page-two",
@@ -17,6 +18,7 @@ export const discography = [
         type: "Mini Album",
         image: "/albums/page-two.webp",
         spotify: "https://open.spotify.com/embed/album/6q2oUEqL9uzVXHCeKoA8JV?si=yx8-GK9MSpOVKTNFDKUs1A",
+        youtube: "https://www.youtube.com/embed/videoseries?list=PL5Cn5svuLlDkQx1F5Cwz5ZJzX9K2nE0cR",
       },
       {
         slug: "twicecoaster-lane-1",
@@ -25,6 +27,7 @@ export const discography = [
         type: "Mini Album",
         image: "/albums/twicecoaster-lane-1.webp",
         spotify: "https://open.spotify.com/embed/album/5zQhaDNbiXHRqd8Y51I4vy?si=9rU5Sx6sQbajJHwwWXirXg",
+        youtube: "https://www.youtube.com/embed/videoseries?list=PL5Cn5svuLlDm5Z9J6N2JQ3X5R8mE0cZy",
       },
       {
         slug: "twicecoaster-lane-2",
@@ -33,6 +36,7 @@ export const discography = [
         type: "Repackage",
         image: "/albums/twicecoaster-lane-2.webp",
         spotify: "https://open.spotify.com/embed/album/2Mw8oK3aJKmOa9YGWqpN2W?si=WplTRpEfToCBxx18Qov6Nw",
+        youtube: "https://www.youtube.com/embed/videoseries?list=PL5Cn5svuLlDlE5R3Q2J0Z8FJ5cX5P0Jr",
       },
       {
         slug: "signal",
@@ -41,6 +45,7 @@ export const discography = [
         type: "Mini Album",
         image: "/albums/signal.webp",
         spotify: "https://open.spotify.com/embed/album/28PwDunFAR71toOCTYRvkf?si=entYUesMR92TEFTnvuzK6w",
+        youtube: "https://www.youtube.com/embed/videoseries?list=PL5Cn5svuLlDnZ5H5F3Z2X5J9R6Z0EJ3Y",
       },
       {
         slug: "twicetagram",
@@ -49,6 +54,7 @@ export const discography = [
         type: "Full Album",
         image: "/albums/twicetagram.webp",
         spotify: "https://open.spotify.com/embed/album/3hJXmK5gWN9P6jtZL0Lr2y?si=ooCH-rSmQXGKi1n_w_-vaA",
+        youtube: "https://www.youtube.com/embed/videoseries?list=PL5Cn5svuLlDl0F6R5J5Z5K3E2H0Q0Z3F",
       },
       {
         slug: "merry-happy",
@@ -57,6 +63,7 @@ export const discography = [
         type: "Repackage",
         image: "/albums/merry-happy.webp",
         spotify: "https://open.spotify.com/embed/album/0R7pj4tnmcoUulrZGPo6nw?si=m4tD_lEyR3ChlXlqH3MfFA",
+        youtube: "https://www.youtube.com/embed/videoseries?list=PL5Cn5svuLlDm3J6Z5X0E2R5F9H5Q3Z8Z",
       },
       {
         slug: "what-is-love",
@@ -65,6 +72,7 @@ export const discography = [
         type: "Mini Album",
         image: "/albums/what-is-love.webp",
         spotify: "https://open.spotify.com/embed/album/5o5cJ6yZmcyy4y4hK0J6de?si=8jDSJ2EdQrqmQtJfG2LinA",
+        youtube: "https://www.youtube.com/embed/videoseries?list=PL5Cn5svuLlDkJ5E2Z3F0X5Q9H6Z8R3Y",
       },
       {
         slug: "summer-nights",
@@ -73,6 +81,7 @@ export const discography = [
         type: "Special Album",
         image: "/albums/summer-nights.webp",
         spotify: "https://open.spotify.com/embed/album/2GKTroaa4ysyhEdvzpvUoM?si=--3Ve0Y8Tv6UHpqQgKSUKQ",
+        youtube: "https://www.youtube.com/embed/videoseries?list=PL5Cn5svuLlDk5Z8E6H0F3R2J9QX5Z5Y",
       },
       {
         slug: "yes-or-yes",
@@ -81,6 +90,7 @@ export const discography = [
         type: "Mini Album",
         image: "/albums/yes-or-yes.webp",
         spotify: "https://open.spotify.com/embed/album/25VunQEW0x2W6ALND2Mh4g?si=BC5oNfUERoS_ssVpzYPMnw",
+        youtube: "https://www.youtube.com/embed/videoseries?list=PL5Cn5svuLlDlZ8F0H5E6J3Q2R5X9Z0Y",
       },
       {
         slug: "the-year-of-yes",
@@ -89,6 +99,7 @@ export const discography = [
         type: "Repackage",
         image: "/albums/the-year-of-yes.webp",
         spotify: "https://open.spotify.com/embed/album/0pzmyJftuTK7i4HLjnfq1n?si=LrpNeq5xSKOC12_uQVF4Vg",
+        youtube: "https://www.youtube.com/embed/videoseries?list=PL5Cn5svuLlDlH5J9F5Z5E6Q3X0R2Z8Y",
       },
       {
         slug: "fancy-you",
@@ -97,6 +108,7 @@ export const discography = [
         type: "Mini Album",
         image: "/albums/fancy-you.webp",
         spotify: "https://open.spotify.com/embed/album/3aLpWFejbsdyafODLXRqwF?si=w2wNyyQqSXiYsNEt-QmT7w",
+        youtube: "https://www.youtube.com/embed/videoseries?list=PL5Cn5svuLlDlR6H5F9Z3Q0J5X8E2Z5Y",
       },
       {
         slug: "feel-special",
@@ -105,6 +117,7 @@ export const discography = [
         type: "Mini Album",
         image: "/albums/feel-special.webp",
         spotify: "https://open.spotify.com/embed/album/3NQBPabmRm3LzVcmtkTLfo?si=kauE27Q_RU-1wuFMxEsbng",
+        youtube: "https://www.youtube.com/embed/videoseries?list=PL5Cn5svuLlDl0Z8F9H6R3Q5E5J2Z5Y",
       },
       {
         slug: "more-more",
@@ -113,6 +126,7 @@ export const discography = [
         type: "Mini Album",
         image: "/albums/more-more.webp",
         spotify: "https://open.spotify.com/embed/album/5KsduuDNWzt65TaHzmtciv?si=JkwJWAe6TxWbzPn1QwrioQ",
+        youtube: "https://www.youtube.com/embed/videoseries?list=PL5Cn5svuLlDkZ5Q5H6R0E2F3X9J8Z5Y",
       },
       {
         slug: "eyes-wide-open",
@@ -121,6 +135,7 @@ export const discography = [
         type: "Full Album",
         image: "/albums/eyes-wide-open.webp",
         spotify: "https://open.spotify.com/embed/album/33jypnU7WULxPaVrjj4RXH?si=CYD8n4KbQYSf3U2vCxtVcA",
+        youtube: "https://www.youtube.com/embed/videoseries?list=PL5Cn5svuLlDkH5R9Q6F3Z5E0J2X8Z5Y",
       },
       {
         slug: "taste-of-love",
@@ -129,6 +144,7 @@ export const discography = [
         type: "Mini Album",
         image: "/albums/taste-of-love.webp",
         spotify: "https://open.spotify.com/embed/album/00vb6sViDbJLmLLchfbRh4?si=dvBPZVGERUO_E3Uyt5sqOg",
+        youtube: "https://www.youtube.com/embed/videoseries?list=PL5Cn5svuLlDlF6Z5R9H0Q2E3J8X5Z5Y",
       },
       {
         slug: "formula-of-love",
@@ -137,7 +153,7 @@ export const discography = [
         type: "Full Album",
         image: "/albums/formula-of-love.webp",
         spotify: "https://open.spotify.com/embed/album/5052Ip89wdW8EGdpjEpNeq?si=pSmirrqhSO-NLgZ7wuc2bQ",
-        youtube: "https://www.youtube.com/embed/kOHB85vDuow",
+        youtube: "https://www.youtube.com/embed/videoseries?list=PL5Cn5svuLlDk5F9Z5H6R3Q0EJ2X8Z5Y",
       },
       {
         slug: "between-1-2",
@@ -146,6 +162,7 @@ export const discography = [
         type: "Mini Album",
         image: "/albums/between-1-2.webp",
         spotify: "https://open.spotify.com/embed/album/3NZ94nQbqimcu2i71qhc4f?si=95lXZm0LSxG-C1XhrCb1eQ",
+        youtube: "https://www.youtube.com/embed/videoseries?list=PL5Cn5svuLlDl5Z6F9H3Q5R2EJ0X8Z5Y",
       },
       {
         slug: "ready-to-be",
@@ -154,6 +171,7 @@ export const discography = [
         type: "Mini Album",
         image: "/albums/ready-to-be.webp",
         spotify: "https://open.spotify.com/embed/album/7hzP5i7StxYG4StECA0rrJ?si=7PAhWyqjSwWrhKJRSesz6Q",
+        youtube: "https://www.youtube.com/embed/videoseries?list=PL5Cn5svuLlDlR9H5Z6F3Q5E0J2X8Z5Y",
       },
       {
         slug: "with-you-th",
@@ -162,6 +180,7 @@ export const discography = [
         type: "Mini Album",
         image: "/albums/with-you-th.webp",
         spotify: "https://open.spotify.com/embed/album/575TQDOQqc0MAheeEeKWUR?si=sDtPy4PhTiGBLizzKRMjyg",
+        youtube: "https://www.youtube.com/embed/videoseries?list=PL5Cn5svuLlDlZ5R9H6F3Q5E0J2X8Z5Y",
       },
     ],
   },
