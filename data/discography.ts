@@ -171,7 +171,7 @@ export const discography = [
         type: "Mini Album",
         image: "/albums/ready-to-be.webp",
         spotify: "https://open.spotify.com/embed/album/7hzP5i7StxYG4StECA0rrJ?si=7PAhWyqjSwWrhKJRSesz6Q",
-        youtube: "https://www.youtube.com/embed/videoseries?list=PL5Cn5svuLlDlR9H5Z6F3Q5E0J2X8Z5Y",
+        youtube: "  ",
       },
       {
         slug: "with-you-th",
@@ -195,6 +195,7 @@ export const discography = [
         type: "Full Album",
         image: "/albums/bdz.webp",
         spotify: "https://open.spotify.com/embed/album/3Bi7hl11zYHpw6uE6gAtSs?si=RDyzUJQKTqe4Ta2ECtj1rQ",
+        youtube: "https://www.youtube.com/embed/videoseries?list=PL5Cn5svuLlDlZ5R9H6F3Q5E0J2X8Z5Y",
       },
       {
         slug: "bdz-repackage",
@@ -203,6 +204,7 @@ export const discography = [
         type: "Repackage",
         image: "/albums/bdz-repackage.webp",
         spotify: "https://open.spotify.com/embed/album/1dZtA3Lt9sUGqkM6KWY92x?si=dDZ-AXVgQ1Cz_5y4LfHe3Q",
+        youtube: "https://www.youtube.com/embed/videoseries?list=PL5Cn5svuLlDlZ5R9H6F3Q5E0J2X8Z5Y",
       },
       {
         slug: "perfect-world",
@@ -211,6 +213,7 @@ export const discography = [
         type: "Full Album",
         image: "/albums/perfect-world.webp",
         spotify: "https://open.spotify.com/embed/album/17rk8h2IU4wwSFXw9j2uR6?si=6xQtAwjHRq-7D0hRtT9ADA",
+        youtube: "https://www.youtube.com/embed/videoseries?list=PL5Cn5svuLlDlZ5R9H6F3Q5E0J2X8Z5Y",
       },
       {
         slug: "celebrate",
@@ -219,6 +222,7 @@ export const discography = [
         type: "Full Album",
         image: "/albums/celebrate.webp",
         spotify: "https://open.spotify.com/embed/album/1nqz3cEjuvCMo8RHLBI9kM?si=DgTGmF3lSEmkfHmR0rvXlA",
+        youtube: "https://www.youtube.com/embed/videoseries?list=PL5Cn5svuLlDlZ5R9H6F3Q5E0J2X8Z5Y",
       },
       {
         slug: "dive",
@@ -227,6 +231,7 @@ export const discography = [
         type: "Full Album",
         image: "/albums/dive.webp",
         spotify: "https://open.spotify.com/embed/album/7tgTOUXm74GKA12wsQIUPu?si=XXpp7hf3QyypLucpDc8dyQ",
+        youtube: "https://www.youtube.com/embed/videoseries?list=PL5Cn5svuLlDlZ5R9H6F3Q5E0J2X8Z5Y",
       },
     ],
   },
