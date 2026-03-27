@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   },
 
   openGraph: {
-    title: "TWICE Archive",
+    title: "TWICE Fansite",
     description: "Fansite TWICE berisi profil member, album, dan konten eksklusif.",
     url: "https://twice-archive.vercel.app", // ganti nanti
     siteName: "TWICE Archive",
