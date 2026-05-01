@@ -2,6 +2,7 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Analytics } from "@vercel/analytics/next";
+import CustomCursor from "@/components/CustomCursor";
 
 import type { Metadata } from "next";
 
@@ -49,7 +50,8 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body className="bg-pink-50">
+      <body className="bg-pink-50 cursor-none">
+        <CustomCursor />
         <Analytics />
         <Navbar />
         <main className="min-h-screen">{children}</main>
