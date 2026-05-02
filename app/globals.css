@@ -24,3 +24,14 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* HILANGKAN SEMUA CURSOR DEFAULT */
+* {
+  cursor: none !important;
+}
+
+/* Optional: biar text select tetap rapi */
+input,
+textarea {
+  cursor: text !important;
+}
