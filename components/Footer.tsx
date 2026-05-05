@@ -22,7 +22,7 @@ export default function Footer() {
   ];
 
   return (
-    <footer className="relative mt-24 overflow-hidden">
+    <footer className="relative pt-24 overflow-hidden">
       {/* ANIMATED BACKGROUND */}
       <div className="absolute inset-0 bg-gradient-to-r from-pink-200 via-pink-100 to-pink-200 animate-[gradientMove_10s_linear_infinite]" />
 
