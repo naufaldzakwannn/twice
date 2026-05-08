@@ -97,6 +97,7 @@ export const members = [
     bloodType: "O",
     image: "/members/dahyun.jpg",
     description: "Dahyun dikenal dengan personality ceria dan ekspresi unik. Sering menjadi mood maker grup.",
+    position: "left",
   },
   {
     slug: "chaeyoung",
