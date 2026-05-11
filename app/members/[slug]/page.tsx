@@ -59,11 +59,15 @@ export default function MemberDetail({ params }: { params: Promise<{ slug: strin
 
             {/* POSITIONS */}
             <div className="mt-8 flex flex-wrap gap-3">
-              {member.position.map((pos) => (
-                <span key={pos} className="px-5 py-2 rounded-full bg-pink-100 text-pink-600 text-sm font-medium">
-                  {pos}
-                </span>
-              ))}
+              {Array.isArray(member.position) ? (
+                member.position.map((pos) => (
+                  <span key={pos} className="px-5 py-2 rounded-full bg-pink-100 text-pink-600 text-sm font-medium">
+                    {pos}
+                  </span>
+                ))
+              ) : (
+                <span className="px-5 py-2 rounded-full bg-pink-100 text-pink-600 text-sm font-medium">{member.position}</span>
+              )}
             </div>
 
             {/* QUICK STATS */}
