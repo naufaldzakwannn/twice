@@ -9,10 +9,10 @@ export default function AboutPage() {
       {/* HERO */}
       <section className="relative overflow-hidden">
         {/* gradient background */}
-        <div className="absolute inset-0 bg-gradient-to-br from-pink-200 via-white to-pink-100" />
+        <div className="absolute inset-0 bg-linear-to-br from-pink-200 via-white to-pink-100" />
 
         {/* glow */}
-        <div className="absolute top-20 left-1/2 -translate-x-1/2 w-[500px] h-[500px] bg-pink-300 opacity-30 blur-[120px] rounded-full" />
+        <div className="absolute top-20 left-1/2 -translate-x-1/2 w-125 h-125 bg-pink-300 opacity-30 blur-[120px] rounded-full" />
 
         <div className="relative max-w-6xl mx-auto px-6 py-28 text-center">
           <motion.h1 initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} className="text-5xl md:text-6xl font-extrabold text-pink-500">
@@ -62,10 +62,10 @@ export default function AboutPage() {
       {/* DEBUT ERA */}
       <section className="relative py-32 overflow-hidden">
         {/* background */}
-        <div className="absolute inset-0 bg-gradient-to-b from-pink-50 via-white to-white" />
+        <div className="absolute inset-0 bg-linear-to-b from-pink-50 via-white to-white" />
 
         {/* glow */}
-        <div className="absolute top-10 left-0 w-[700px] h-[700px] bg-pink-200/40 blur-[160px] rounded-full" />
+        <div className="absolute top-10 left-0 w-175 h-175 bg-pink-200/40 blur-[160px] rounded-full" />
 
         <div className="relative max-w-6xl mx-auto px-6">
           <div className="grid lg:grid-cols-[0.95fr_1.05fr] gap-24 items-center">
@@ -86,14 +86,14 @@ export default function AboutPage() {
                   height={900}
                   className="
                     w-full
-                    h-[520px]
-                    md:h-[700px]
+                    h-130
+                    md:h-175
                     object-cover
                   "
                 />
 
                 {/* overlay */}
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
+                <div className="absolute inset-0 bg-linear-to-t from-black/60 via-transparent to-transparent" />
 
                 {/* text */}
                 <div className="absolute bottom-8 left-8">
