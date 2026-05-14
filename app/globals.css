@@ -35,3 +35,33 @@ input,
 textarea {
   cursor: text !important;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* CUSTOM SCROLLBAR */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #fff7fb;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, #f9a8d4, #ec4899, #db2777);
+
+  border-radius: 999px;
+  border: 2px solid #fff7fb;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(to bottom, #f472b6, #db2777, #be185d);
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #ec4899 #fff7fb;
+}
