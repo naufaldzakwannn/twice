@@ -82,7 +82,6 @@ export const members = [
     bloodType: "A",
     image: "/members/mina.jpg",
     description: "Mina memiliki background ballet yang kuat, memberikan kesan elegan dan anggun di atas panggung.",
-    position: "right",
   },
   {
     slug: "dahyun",
@@ -97,7 +96,6 @@ export const members = [
     bloodType: "O",
     image: "/members/dahyun.jpg",
     description: "Dahyun dikenal dengan personality ceria dan ekspresi unik. Sering menjadi mood maker grup.",
-    position: "left",
   },
   {
     slug: "chaeyoung",

@@ -125,7 +125,7 @@ export default function MemberDetail({ params }: { params: Promise<{ slug: strin
                   <p>✨ Stage Name: {member.stageName}</p>
                   <p>🎂 Born on {member.birthday}</p>
                   <p>🌍 Nationality: {member.nationality}</p>
-                  <p>💖 Positions: {member.position.join(", ")}</p>
+                  <p>💖 Positions: {Array.isArray(member.position) ? member.position.join(", ") : member.position}</p>
                 </div>
               </motion.div>
             )}
