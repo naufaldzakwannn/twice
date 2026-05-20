@@ -3,6 +3,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Analytics } from "@vercel/analytics/next";
 import CustomCursor from "@/components/CustomCursor";
+import ScrollToTop from "@/components/ScrollToTop";
 
 import type { Metadata } from "next";
 
@@ -55,6 +56,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Analytics />
         <Navbar />
         <main className="min-h-screen">{children}</main>
+        <ScrollToTop />
         <Footer />
       </body>
     </html>

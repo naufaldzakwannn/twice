@@ -320,4 +320,141 @@ export const members: Member[] = [
       charisma: 90,
     },
   },
+  {
+    slug: "dahyun",
+    name: "Kim Dahyun",
+    stageName: "Dahyun",
+    position: ["Lead Rapper", "Sub Vocalist"],
+
+    birthName: "Kim Da-hyun",
+    birthday: "1998-05-28",
+    zodiac: "Gemini",
+    nationality: "South Korean",
+    height: "159 cm",
+    bloodType: "O",
+
+    image: "/members/dahyun.jpg",
+    banner: "/members/banners/dahyun-banner.jpg",
+
+    description: "Dahyun dikenal sebagai mood maker TWICE dengan personality ceria dan ekspresi ikonik. Ia memiliki kemampuan variety show yang sangat kuat.",
+
+    theme: "from-slate-100 via-white to-gray-50",
+
+    quote: "Smile brighter every day.",
+
+    favoriteColor: "White",
+    hobby: "Playing Piano",
+    emoji: "🦅",
+    mbti: "ISFJ",
+
+    representativeSong: "MOONLIGHT",
+    favoriteEra: "Talk That Talk",
+
+    youtube: "https://www.youtube.com/embed/HuoOEry-Yc4",
+
+    instagram: "https://www.instagram.com/dahhyunnee",
+
+    gallery: ["/members/dahyun/1.jpg", "/members/dahyun/2.jpg", "/members/dahyun/3.jpg"],
+
+    funFacts: ["Dikenal dengan eagle dance yang viral.", "Punya kemampuan variety show luar biasa.", "Sangat aktif berinteraksi dengan fans.", "Sering disebut tofu karena kulitnya yang sangat putih."],
+
+    stats: {
+      dance: 76,
+      vocal: 74,
+      rap: 85,
+      charisma: 95,
+    },
+  },
+
+  {
+    slug: "chaeyoung",
+    name: "Son Chaeyoung",
+    stageName: "Chaeyoung",
+    position: ["Main Rapper", "Sub Vocalist"],
+
+    birthName: "Son Chae-young",
+    birthday: "1999-04-23",
+    zodiac: "Taurus",
+    nationality: "South Korean",
+    height: "159 cm",
+    bloodType: "B",
+
+    image: "/members/chaeyoung.jpg",
+    banner: "/members/banners/chaeyoung-banner.jpg",
+
+    description: "Chaeyoung dikenal dengan style artistik yang unik dan kemampuan menulis lirik. Ia memiliki aura bebas dan expressive.",
+
+    theme: "from-red-100 via-white to-pink-50",
+
+    quote: "Art is freedom.",
+
+    favoriteColor: "Red",
+    hobby: "Drawing",
+    emoji: "🐯",
+    mbti: "INFP",
+
+    representativeSong: "BASICS",
+    favoriteEra: "Scientist",
+
+    youtube: "https://www.youtube.com/embed/nbK2aNGei2I",
+
+    instagram: "https://www.instagram.com/chaeyo.0",
+
+    gallery: ["/members/chaeyoung/1.jpg", "/members/chaeyoung/2.jpg", "/members/chaeyoung/3.jpg"],
+
+    funFacts: ["Sangat suka menggambar dan seni.", "Ikut menulis beberapa lirik lagu TWICE.", "Memiliki fashion style yang unik.", "Dikenal dengan personality bebas dan chill."],
+
+    stats: {
+      dance: 78,
+      vocal: 70,
+      rap: 97,
+      charisma: 92,
+    },
+  },
+
+  {
+    slug: "tzuyu",
+    name: "Chou Tzuyu",
+    stageName: "Tzuyu",
+    position: ["Lead Dancer", "Sub Vocalist", "Visual", "Maknae"],
+
+    birthName: "Chou Tzuyu",
+    birthday: "1999-06-14",
+    zodiac: "Gemini",
+    nationality: "Taiwanese",
+    height: "172 cm",
+    bloodType: "A",
+
+    image: "/members/tzuyu.jpg",
+    banner: "/members/banners/tzuyu-banner.jpg",
+
+    description: "Tzuyu adalah maknae TWICE yang dikenal karena visual luar biasa dan aura elegan. Ia juga memiliki personality yang tenang dan humble.",
+
+    theme: "from-violet-100 via-white to-fuchsia-50",
+
+    quote: "Always stay humble.",
+
+    favoriteColor: "Blue",
+    hobby: "Watching performances",
+    emoji: "🦌",
+    mbti: "ISFP",
+
+    representativeSong: "Run Away",
+    favoriteEra: "I CAN'T STOP ME",
+
+    youtube: "https://www.youtube.com/embed/CMNahhgR_ss",
+
+    instagram: "https://www.instagram.com/thinkaboutzu",
+
+    gallery: ["/members/tzuyu/1.jpg", "/members/tzuyu/2.jpg", "/members/tzuyu/3.jpg"],
+
+    funFacts: ["Member paling tinggi di TWICE.", "Berasal dari Taiwan.", "Dikenal dengan visual yang sangat iconic.", "Memiliki personality yang kalem dan sopan."],
+
+    stats: {
+      dance: 88,
+      vocal: 72,
+      rap: 40,
+      charisma: 98,
+    },
+  },
 ];
