@@ -1,24 +1,29 @@
 "use client";
 
 import Link from "next/link";
-import { useRef, useState, useEffect } from "react";
+import { useEffect, useRef, useState } from "react";
 
 export default function Footer() {
   const audioRef = useRef<HTMLAudioElement | null>(null);
+
   const [playing, setPlaying] = useState(false);
+  const [activeAlbum, setActiveAlbum] = useState(0);
 
   const albums = [
     {
       title: "With YOU-th",
       image: "/albums/with-you-th.webp",
+      year: "2024",
     },
     {
       title: "Ready To Be",
       image: "/albums/ready-to-be.webp",
+      year: "2023",
     },
     {
       title: "Between 1&2",
       image: "/albums/between-1-2.webp",
+      year: "2022",
     },
   ];
 
@@ -32,13 +37,12 @@ export default function Footer() {
       try {
         await audioRef.current.play();
         setPlaying(true);
-      } catch (err) {
-        console.error("Audio play failed:", err);
+      } catch (error) {
+        console.error(error);
       }
     }
   };
 
-  // auto update state when music ends
   useEffect(() => {
     const audio = audioRef.current;
 
@@ -56,46 +60,42 @@ export default function Footer() {
   }, []);
 
   return (
-    <footer className="relative pt-24 overflow-hidden">
+    <footer className="relative overflow-hidden pt-24">
       {/* AUDIO */}
       <audio ref={audioRef} loop>
         <source src="/music/MARS.mp3" type="audio/mp3" />
       </audio>
 
-      {/* ANIMATED BACKGROUND */}
-      <div className="absolute inset-0 bg-gradient-to-r from-pink-200 via-pink-100 to-pink-200 animate-[gradientMove_10s_linear_infinite]" />
+      {/* BACKGROUND */}
+      <div className="absolute inset-0 bg-gradient-to-r from-pink-200 via-pink-100 to-pink-200 animate-gradient" />
 
       {/* GLOW */}
-      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[500px] h-[500px] bg-pink-300/30 blur-3xl rounded-full" />
+      <div className="absolute left-1/2 top-0 h-[500px] w-[500px] -translate-x-1/2 rounded-full bg-pink-300/30 blur-3xl" />
 
-      <div className="relative max-w-6xl mx-auto px-6 py-16">
-        {/* TOP */}
-        <div className="grid md:grid-cols-3 gap-12 items-start">
-          {/* BRAND + MUSIC */}
+      <div className="relative mx-auto max-w-6xl px-6 py-16">
+        <div className="grid gap-14 md:grid-cols-3">
+          {/* BRAND */}
           <div>
-            <h2 className="text-3xl font-bold text-pink-500 tracking-tight">TWICE</h2>
+            <h2 className="text-4xl font-black tracking-tight text-pink-500">TWICE</h2>
 
-            <p className="mt-3 text-gray-600 text-sm leading-relaxed max-w-sm">A fan-made space celebrating music, visuals, and the journey of TWICE.</p>
+            <p className="mt-4 max-w-sm text-sm leading-relaxed text-gray-600">A fan-made experience celebrating music, visuals, and the iconic journey of TWICE.</p>
 
-            {/* NOW PLAYING */}
-            <div className="mt-6">
-              <button onClick={toggleMusic} className="group flex items-center gap-4 px-5 py-3 rounded-full bg-white/90 backdrop-blur shadow-lg hover:shadow-pink-200 transition-all duration-300 hover:scale-[1.03]">
-                {/* PLAY ICON */}
-                <div className="w-9 h-9 rounded-full bg-pink-500 flex items-center justify-center text-white text-sm">{playing ? "❚❚" : "▶"}</div>
+            {/* PLAYER */}
+            <div className="mt-8">
+              <button onClick={toggleMusic} className="group flex items-center gap-4 rounded-full border border-white/50 bg-white/90 px-5 py-4 shadow-xl backdrop-blur-xl transition-all duration-300 hover:scale-[1.03]">
+                <div className="flex h-10 w-10 items-center justify-center rounded-full bg-pink-500 text-white">{playing ? "❚❚" : "▶"}</div>
 
-                {/* TEXT */}
                 <div className="flex flex-col items-start">
-                  <span className="text-xs text-gray-400 uppercase tracking-wider">Now Playing</span>
+                  <span className="text-[10px] uppercase tracking-[0.3em] text-gray-400">Now Playing</span>
 
-                  <span className="text-sm font-medium text-gray-700">MARS</span>
+                  <span className="text-sm font-semibold text-gray-700">MARS</span>
                 </div>
 
-                {/* WAVES */}
-                <div className="flex items-end gap-[3px] ml-2 h-5">
+                <div className="ml-2 flex h-5 items-end gap-[3px]">
                   {[...Array(5)].map((_, i) => (
                     <span
                       key={i}
-                      className={`w-[3px] bg-pink-400 rounded-full transition-all duration-300 ${playing ? "animate-wave" : "h-2"}`}
+                      className={`w-[3px] rounded-full bg-pink-400 ${playing ? "animate-wave" : "h-2"}`}
                       style={{
                         animationDelay: `${i * 0.12}s`,
                       }}
@@ -103,67 +103,91 @@ export default function Footer() {
                   ))}
                 </div>
               </button>
-
-              <p className="text-xs text-gray-500 mt-3">Click to {playing ? "pause" : "play"} music</p>
             </div>
           </div>
 
           {/* NAVIGATION */}
           <div>
-            <h3 className="font-semibold text-gray-800 mb-5 text-lg">Explore</h3>
+            <h3 className="mb-5 text-lg font-semibold text-gray-800">Explore</h3>
 
-            <div className="flex flex-col gap-4 text-gray-600 text-sm">
-              <Link href="/members" className="hover:text-pink-500 transition hover:translate-x-1 duration-300">
+            <div className="flex flex-col gap-4 text-sm text-gray-600">
+              <Link href="/members" className="transition duration-300 hover:translate-x-1 hover:text-pink-500">
                 Members
               </Link>
 
-              <Link href="/discography" className="hover:text-pink-500 transition hover:translate-x-1 duration-300">
+              <Link href="/discography" className="transition duration-300 hover:translate-x-1 hover:text-pink-500">
                 Discography
               </Link>
 
-              <Link href="/" className="hover:text-pink-500 transition hover:translate-x-1 duration-300">
+              <Link href="/gallery" className="transition duration-300 hover:translate-x-1 hover:text-pink-500">
+                Gallery
+              </Link>
+
+              <Link href="/" className="transition duration-300 hover:translate-x-1 hover:text-pink-500">
                 Home
               </Link>
             </div>
           </div>
 
-          {/* MINI ALBUM PREVIEW */}
+          {/* ALBUMS */}
           <div>
-            <h3 className="font-semibold text-gray-800 mb-5 text-lg">Latest Releases</h3>
+            <h3 className="mb-5 text-lg font-semibold text-gray-800">Latest Releases</h3>
 
             <div className="flex gap-4">
-              {albums.map((album, i) => (
-                <div key={i} data-cursor-image={album.image} className="relative group cursor-none">
-                  <img src={album.image} alt={album.title} className="w-20 h-20 object-cover rounded-2xl shadow-lg transition-all duration-500 group-hover:scale-110 group-hover:-translate-y-1" />
+              {albums.map((album, index) => (
+                <button
+                  key={album.title}
+                  onMouseEnter={() => setActiveAlbum(index)}
+                  className={`group relative overflow-hidden rounded-3xl border transition-all duration-500 ${activeAlbum === index ? "scale-105 border-pink-300 shadow-2xl" : "border-white/40 opacity-80 hover:opacity-100"}`}
+                >
+                  <img src={album.image} alt={album.title} className="h-32 w-24 object-cover transition duration-700 group-hover:scale-110" />
 
-                  {/* hover overlay */}
-                  <div className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 rounded-2xl flex flex-col items-center justify-center text-white text-[10px] tracking-wider transition duration-300">
-                    <span>VIEW</span>
-                    <span className="mt-1 font-medium">{album.title}</span>
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
+
+                  <div className="absolute bottom-3 left-3">
+                    <p className="text-[10px] uppercase tracking-[0.25em] text-white/70">{album.year}</p>
+
+                    <h4 className="mt-1 text-xs font-semibold text-white">{album.title}</h4>
                   </div>
-                </div>
+                </button>
               ))}
+            </div>
+
+            {/* PREVIEW */}
+            <div className="relative mt-8 overflow-hidden rounded-[2rem] shadow-2xl">
+              <img src={albums[activeAlbum].image} alt={albums[activeAlbum].title} className="h-56 w-full object-cover" />
+
+              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
+
+              <div className="absolute bottom-5 left-5">
+                <p className="text-xs uppercase tracking-[0.3em] text-white/70">Highlighted Era</p>
+
+                <h3 className="mt-2 text-2xl font-bold text-white">{albums[activeAlbum].title}</h3>
+
+                <p className="mt-1 text-sm text-white/80">TWICE • {albums[activeAlbum].year}</p>
+              </div>
             </div>
           </div>
         </div>
 
         {/* BOTTOM */}
-        <div className="border-t border-pink-200/70 mt-14 pt-6 text-center text-sm text-gray-500">© {new Date().getFullYear()} TWICE Fan Web. Not affiliated with JYP Entertainment.</div>
+        <div className="mt-16 border-t border-pink-200/70 pt-6 text-center text-sm text-gray-500">© {new Date().getFullYear()} TWICE Fan Web. Not affiliated with JYP Entertainment.</div>
       </div>
 
-      {/* CUSTOM STYLES */}
       <style jsx>{`
+        .animate-gradient {
+          background-size: 200% 200%;
+          animation: gradientMove 10s linear infinite;
+        }
+
         @keyframes gradientMove {
           0% {
             background-position: 0%;
           }
+
           100% {
             background-position: 200%;
           }
-        }
-
-        .animate-\\[gradientMove_10s_linear_infinite\\] {
-          background-size: 200% 200%;
         }
 
         @keyframes wave {
@@ -171,6 +195,7 @@ export default function Footer() {
           100% {
             height: 8px;
           }
+
           50% {
             height: 22px;
           }
