@@ -119,12 +119,8 @@ export default function Footer() {
                 Discography
               </Link>
 
-              <Link href="/gallery" className="transition duration-300 hover:translate-x-1 hover:text-pink-500">
-                Gallery
-              </Link>
-
-              <Link href="/" className="transition duration-300 hover:translate-x-1 hover:text-pink-500">
-                Home
+              <Link href="/about" className="transition duration-300 hover:translate-x-1 hover:text-pink-500">
+                About
               </Link>
             </div>
           </div>
